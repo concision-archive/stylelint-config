@@ -17,9 +17,9 @@ cache:
     - node_modules
 
 node_js:
-  - '8'
-  - '6'
-  - '10'
+  - '8.17.0'
+  - '6.17.1'
+  - '10.24.1'
 
 before_install:
   - npm install -g npm@latest
